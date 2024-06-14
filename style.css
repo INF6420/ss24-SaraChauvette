@@ -77,8 +77,7 @@ img {
     .grid-container-home {
     display: grid;
     grid-template-columns: auto auto auto;
-    column-gap: 10px;
-    row-gap: 50px;
+    column-gap: 5px;
 }
 }
     
