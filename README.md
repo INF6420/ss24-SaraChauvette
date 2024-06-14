@@ -16,7 +16,7 @@ Navigation Menu - will include links to the homepage pages for each region of th
 
 Main Content - will include a photo and a short description of the purpose of this website
 
-Recent Trips - will include previews of four recent towns we've visited
+Recent Trips - will include previews of four recent towns we've visited. This design  has been updated to only include previews of three recent ghost towns to better meet Universal Design Principles
 
 Footer - will include copyright information
 

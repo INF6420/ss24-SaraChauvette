@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body> 
     <header>
-        <nav>
-            <ul>
+        <nav class="main-menu">
+            <ul class="main-nav">
               <li><a href="index.html">Home</a></li>
               <li><a href="north.html">North</a></li>
               <li><a href="contact.html">Contact Us</a></li>
@@ -17,12 +18,28 @@
         </nav>
     </header>
     <main>
-        <div>
-           <h1>Contact Us</h1>
-            <p>Please send us any locations you think we should visit. We also love to hear your stories about ghost towns.</p>
+        <div class="center-text">
+           <h1 class="body-content">Contact Us</h1>
+            <p class="body-content">Please send us any locations you think we should visit. We also love to hear your stories about ghost towns.</p>
+            <div class="body-content">
+            <div class="container">
+                <form action="action_page.php">
+              
+                  <label for="fname">Email</label>
+                  <input type="text" id="email" name="email" placeholder="Your email">
+              
+                              
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
+            </div>
         </div>
     </main>
-    <footer>
+    <footer class="footer">
         <a href="https://www.google.com/maps/@46.4182441,-88.8471456,7z/data=!3m1!4b1!4m2!6m1!1s1EAWhEZ6pSVvnUDoctw2d-ae1wt8?entry=ttu">Map</a>
     </footer>
 </body>

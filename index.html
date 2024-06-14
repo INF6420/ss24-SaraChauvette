@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body> 
     <header>
-        <nav>
-            <ul>
+        <nav class="main-menu">
+            <ul class="main-nav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="north.html">North</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
@@ -17,25 +18,35 @@
         </nav>
     </header>
     <main>
-        <div><img src="Images/tower.png" alt="image of a brick tower in the woods with a round window hole near the top."></div>
         <div>
-            <h1>Ghost Towns of The Upper Peninsula</h1>
-                <p>Michigan's Upper Peninsula used to be known for mining and logging. Since these industries have declined, many of the cities have become ghost tonws. 
+            <img src="Images/tower.png" class="center-element" alt="image of a brick tower in the woods with a round window hole near the top.">
+                <h1 class="center-text">Ghost Towns of The Upper Peninsula</h1>
+                <p class="center-element">Michigan's Upper Peninsula used to be known for mining and logging. Since these industries have declined, many of the cities have become ghost tonws. 
                 We travel frequently to the Upper Peninsula to visit ghost towns we've seen before and to explore new locations.</p>
-            <h2>Recent Trips</h2>
-            <div><img src="Images/tower.png" alt="image of a brick tower in the woods with a round window hole near the top."></div>
-            <p>Infomation about trip</p>
-            <div><img src="Images/tower.png" alt="image of a brick tower in the woods with a round window hole near the top."></div>
-            <p>Infomation about trip</p>
-            <div><img src="Images/tower.png" alt="image of a brick tower in the woods with a round window hole near the top."></div>
-            <p>Infomation about trip</p>
-            <div><img src="Images/tower.png" alt="image of a brick tower in the woods with a round window hole near the top."></div>
-            <p>Infomation about trip</p>
-
         </div>
+            <div>                   
+                 <h2 class="center-text">Recent Trips</h2>
+            </div>
+            <div class="center-element"> 
+                <div class="column">
+                    <img src="Images/tower.png"  alt="image of a brick tower in the woods with a round window hole near the top.">
+                    <p class="center-text">Infomation about trip</p>
+                </div>
+                <div class="column">
+                    <img src="Images/tower.png" alt="image of a brick tower in the woods with a round window hole near the top.">
+                    <p class="center-text">Infomation about trip</p>
+                </div>
+                <div class="column">            
+                  <img src="Images/tower.png" alt="image of a brick tower in the woods with a round window hole near the top.">
+                <p class="center-text">Infomation about trip</p>
+                </div>     
+            </div>       
     </main>
+    
     <footer>
+        <div class="footer">
         <a href="https://www.google.com/maps/@46.4182441,-88.8471456,7z/data=!3m1!4b1!4m2!6m1!1s1EAWhEZ6pSVvnUDoctw2d-ae1wt8?entry=ttu">Map</a>
+    </div>
     </footer>
 </body>
 </html>
