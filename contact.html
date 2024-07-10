@@ -22,25 +22,26 @@
            <h1 class="body-content">Contact Us</h1>
             <p class="body-content">Please send us any locations you think we should visit. We also love to hear your stories about ghost towns.</p>
             <div class="body-content">
-            <div class="container">
-                <form action="action_page.php">
-              
-                  <label for="fname">Email</label>
-                  <input type="text" id="email" name="email" placeholder="Your email">
-              
-                              
-                  <label for="message">Message</label>
-                  <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
-              
-                  <input type="submit" value="Submit">
-              
-                </form>
-              </div>
+                <form action="https://formspree.io/f/xpwawaay" method="post" data-validate>
+                    <label for="name">Your Name</label>
+                    <input name="name" id="name" type="text" class="form-input">
+  
+                    <label for="email">Your Email</label>
+                    <input name="email" id="email" type="email" class="form-input" required>
+  
+                    <label for="message">Your Message</label>
+                    <textarea name="message" name="message" class="form-message" required></textarea>
+                    <button type="submit">Send</button>
+                  </form>
             </div>
         </div>
     </main>
     <footer class="footer">
         <a href="https://www.google.com/maps/@46.4182441,-88.8471456,7z/data=!3m1!4b1!4m2!6m1!1s1EAWhEZ6pSVvnUDoctw2d-ae1wt8?entry=ttu">Map</a>
     </footer>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/validate@2.2.0/dist/validate.min.js"></script>
+    <script>
+        validate.init();
+    </script>
 </body>
 </html>
