@@ -91,7 +91,81 @@ img {
     padding-bottom: 5em;
 }
 }
+
+label {
+    display:block;
+    font-weight: 550;
+}
+
+@media screen and (min-width: 1065px) {
+    form {
+        width: 50%;
+        margin: auto;
+    }
+}
+
+.form-input {
+    border: 2px solid #33210d;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px;
+    margin-bottom: 1.5em;
+    width: 100%;
     
+}
+
+.form-input:focus {
+    outline: none;
+    border: 2px solid #f1e2d0;
+}
+
+.form-message {
+    border: 2px solid #33210d;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px;
+    margin-bottom: 1.5em;
+    width: 100%;
+    min-height: 200px;
+}
+
+.form-message:focus {
+    outline: none;
+    border: 2px solid #f1e2d0;
+}
+
+[type="submit"] {
+    background: #f1e2d0;
+    color:#33210d;
+    padding: 3px;
+    width: 100%;
+    font-weight: 200;
+    border: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: .5em;
+    cursor: pointer;
+}
+
+[type="submit"]:hover,
+[type="submit"]:focus {
+    background: #33210d;
+    color: #f1e2d0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.error {
+    border-color: #C62828;
+  }
+  
+  .error-message {
+    margin-top: -1em;
+    margin-bottom: 1em;
+    color: #C62828;
+  }
 
 /*grid-container {adds grid format to north page for screens larger than 768px
 }*/
