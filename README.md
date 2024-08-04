@@ -18,7 +18,7 @@ Main Content - will include a photo and a short description of the purpose of th
 
 Recent Trips - will include previews of four recent towns we've visited. This design  has been updated to only include previews of three recent ghost towns to better meet Universal Design Principles
 
-Footer - will include copyright information
+Footer - will include a link to the map
 
 
 ![Wireframe of Northern Upper Peninsula Page](wireframes/northern-upper-peninsula-wireframe.jpg)
@@ -31,7 +31,7 @@ Navigation Menu - will include links to the homepage pages for each region of th
 
 Main Content - will consist of images of the ghost town with a brief description, the location, and a link to Google Maps
 
-Footer - will include copyright information
+Footer - will include a link to the map
 
 
 ![Wifreframe of Contact Page](wireframes/contact-us-wireframe.jpg)
@@ -44,4 +44,4 @@ Navigation menu - will include links to the homepage pages for each region of th
 
 Main Content - A contact form
 
-Footer - will include copyright information
+Footer - will include a link to the map
